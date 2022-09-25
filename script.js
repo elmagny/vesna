@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$.getJSON
-	('https://opensheet.vercel.app/1iFBckR99x7hO6UOj8dC7TRZPJ3Ac4JiSLekOHLXO2yc/Лист1', 
+	('https://opensheet.vercel.app/11MKk-naN3BMlpU23_8gCBVHZY6alRCABer8ZgEsWAcY/Лист1', 
 	function(data) {
 		data.forEach(function(itemLi) {
 			let item = document.createElement('li');
